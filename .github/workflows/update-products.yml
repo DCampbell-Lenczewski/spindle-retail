@@ -1,0 +1,37 @@
+name: Update products
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # every night at 03:17 UTC
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build products.json from Awin feeds
+        env:
+          WICKES_FEED_URL: ${{ secrets.WICKES_FEED_URL }}
+          BANDQ_FEED_URL: ${{ secrets.BANDQ_FEED_URL }}
+        run: python feed-builder/build_products.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet products.json; then
+            echo "No changes"
+          else
+            git config user.name "product-bot"
+            git config user.email "product-bot@users.noreply.github.com"
+            git add products.json
+            git commit -m "Update products $(date -u +%F)"
+            git push
+          fi

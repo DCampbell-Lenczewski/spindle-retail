@@ -1,0 +1,9 @@
+aw_product_id,merchant_product_id,product_name,aw_deep_link,merchant_deep_link,search_price,merchant_image_url,in_stock,merchant_category
+1001,310230,Cheshire Mouldings Pine Blank Spindle - 41 x 895mm,https://www.awin1.com/pclick.php?p=1001&a=999&m=1563,https://www.wickes.co.uk/p/310230,4.50,https://img.example/310230.jpg,1,Stairparts
+1002,310229,Cheshire Mouldings Pine Twisted Spindle - 41 x 895mm,https://www.awin1.com/pclick.php?p=1002&a=999&m=1563,https://www.wickes.co.uk/p/310229,9.00,,1,Stairparts
+1003,310227,Cheshire Mouldings Pine Handrail for 41mm Spindles - 2.4m,https://www.awin1.com/pclick.php?p=1003&a=999&m=1563,https://www.wickes.co.uk/p/310227,45.00,,1,Stairparts
+1004,999001,Wickes Green Deck Post Ball - 77 x 77mm,https://www.awin1.com/pclick.php?p=1004&a=999&m=1563,https://www.wickes.co.uk/p/999001,6.00,,1,Decking
+1005,999002,Wickes Tuscany Metal Baluster - 805mm - Pack of 15,https://www.awin1.com/pclick.php?p=1005&a=999&m=1563,https://www.wickes.co.uk/p/999002,60.00,,1,Decking
+1006,118381,Cheshire Mouldings Pine Turned Half Newel - 1500 x 90 x 41mm,https://www.awin1.com/pclick.php?p=1006&a=999&m=1563,https://www.wickes.co.uk/p/118381,32.00,,0,Stairparts
+1007,555555,Wickes Universal Newel Fixing Kit,https://www.awin1.com/pclick.php?p=1007&a=999&m=1563,https://www.wickes.co.uk/p/555555,8.00,,1,Stairparts
+1008,777777,Johnstone's Gloss Paint 750ml,https://www.awin1.com/pclick.php?p=1008&a=999&m=1563,https://www.wickes.co.uk/p/777777,15.00,,1,Paint

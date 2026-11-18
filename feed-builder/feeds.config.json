@@ -1,0 +1,17 @@
+{
+  "publisherId": "YOUR_AWIN_PUBLISHER_ID",
+  "maxPerCategoryPerRetailer": 25,
+  "feeds": [
+    { "retailer": "wickes", "name": "Wickes", "awinMerchantId": "1563", "urlEnv": "WICKES_FEED_URL" },
+    { "retailer": "bandq",  "name": "B&Q",    "awinMerchantId": "",     "urlEnv": "BANDQ_FEED_URL" }
+  ],
+  "categories": {
+    "spindles": ["spindle", "baluster"],
+    "handrail": ["handrail", "hand rail"],
+    "baserail": ["baserail", "base rail"],
+    "newel":    ["newel"],
+    "fixings":  ["fixing kit", "newel fixing", "handrail bracket", "groove fillet", "fillet"],
+    "kit":      ["balustrade kit", "banister kit", "landing kit", "project kit"]
+  },
+  "exclude": ["deck", "decking", "garden", "fence", "fencing", "gate", "planter", "outdoor"]
+}
