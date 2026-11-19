@@ -1,33 +1,111 @@
 {
   "version": 1,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "affiliate": {
     "network": "awin",
     "publisherId": "YOUR_AWIN_PUBLISHER_ID"
   },
   "retailers": {
-    "wickes": { "name": "Wickes", "awinMerchantId": "1563" },
-    "bandq": { "name": "B&Q", "awinMerchantId": "" }
+    "wickes": {
+      "name": "Wickes",
+      "awinMerchantId": "1563"
+    },
+    "bandq": {
+      "name": "B&Q",
+      "awinMerchantId": ""
+    }
   },
   "products": [
     {
-      "id": "wickes-310230",
-      "name": "Cheshire Mouldings Pine Blank Spindle - 41 x 895mm",
-      "retailer": "wickes",
-      "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Blank-Spindle---41-x-895mm/p/310230",
-      "price": 4.50,
+      "id": "bandq-5000473035702",
+      "name": "Traditional Oak 41mm Baserail - 2.4m",
+      "retailer": "bandq",
+      "url": "https://www.diy.com/departments/traditional-oak-41mm-baserail-l-2-4m-w-62mm/5000473035702_BQ.prd",
       "packQty": 1,
-      "category": "spindles",
+      "category": "baserail",
+      "spindleSize": 41,
+      "material": "Oak"
+    },
+    {
+      "id": "wickes-310228",
+      "name": "Cheshire Mouldings Pine Baserail for 41mm Spindles - 2.4m",
+      "retailer": "wickes",
+      "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Baserail-for-41mm-Spindles---2-4m/p/310228",
+      "packQty": 1,
+      "category": "baserail",
       "spindleSize": 41,
       "material": "Pine"
     },
     {
-      "id": "wickes-310229",
-      "name": "Cheshire Mouldings Pine Twisted Spindle - 41 x 895mm",
-      "retailer": "wickes",
-      "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Twisted-Spindle---41-x-895mm/p/310229",
-      "price": 9.00,
+      "id": "bandq-5060960711878",
+      "name": "Oak Handrail & Base Rail Set for 13mm Metal Balusters - 2.4m",
+      "retailer": "bandq",
+      "url": "https://www.diy.com/departments/black-metal-oak-grooved-handrail-and-base-rail-set-for-metal-balusters-l-2400mm/5060960711878_BQ.prd",
+      "packQty": 2,
+      "category": "handrail",
+      "spindleSize": 13,
+      "material": "Oak"
+    },
+    {
+      "id": "bandq-5000473035689",
+      "name": "Richard Burbidge Oak 41mm Handrail - 2.4m",
+      "retailer": "bandq",
+      "url": "https://www.diy.com/departments/traditional-oak-41mm-handrail-l-2-4m-w-59mm/5000473035689_BQ.prd",
+      "price": 124.0,
       "packQty": 1,
+      "category": "handrail",
+      "spindleSize": 41,
+      "material": "Oak"
+    },
+    {
+      "id": "wickes-310227",
+      "name": "Cheshire Mouldings Pine Handrail for 41mm Spindles - 2.4m",
+      "retailer": "wickes",
+      "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Handrail-for-41mm-Spindles---2-4m/p/310227",
+      "price": 45.0,
+      "packQty": 1,
+      "category": "handrail",
+      "spindleSize": 41,
+      "material": "Pine"
+    },
+    {
+      "id": "wickes-118381",
+      "name": "Cheshire Mouldings Pine Turned Half Newel - 1500 x 90 x 41mm",
+      "retailer": "wickes",
+      "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Turned-Half-Newel---1500-x-90-x-41mm/p/118381",
+      "packQty": 1,
+      "category": "newel",
+      "material": "Pine"
+    },
+    {
+      "id": "bandq-5060960711786",
+      "name": "Cambridge Black Metal Square Baluster, Pack of 3 - 1120 x 13mm",
+      "retailer": "bandq",
+      "url": "https://www.diy.com/departments/cambridge-black-metal-square-stair-and-landing-baluster-pack-of-3-h-1120mm-w-13mm/5060960711786_BQ.prd",
+      "price": 23.0,
+      "packQty": 3,
+      "category": "spindles",
+      "spindleSize": 13,
+      "material": "Metal"
+    },
+    {
+      "id": "bandq-5000473059661",
+      "name": "Richard Burbidge Elements Metal Baluster, Pack of 3 - 805 x 14mm",
+      "retailer": "bandq",
+      "url": "https://www.diy.com/departments/elements-contemporary-black-metal-staircase-baluster-h-805mm-w-14mm-pack-of-3/5000473059661_BQ.prd",
+      "price": 29.0,
+      "packQty": 3,
+      "category": "spindles",
+      "spindleSize": 14,
+      "material": "Metal"
+    },
+    {
+      "id": "bandq-5055170317637",
+      "name": "Benchmark Pine Square Stair Spindle Trade Box of 20 - 900 x 41mm",
+      "retailer": "bandq",
+      "url": "https://www.diy.com/departments/benchmark-pine-square-stair-spindle-trade-box-of-20-h-900mm-x-w-41mm/5055170317637_BQ.prd",
+      "price": 65.0,
+      "packQty": 20,
       "category": "spindles",
       "spindleSize": 41,
       "material": "Pine"
@@ -43,98 +121,26 @@
       "material": "Hemlock"
     },
     {
-      "id": "wickes-310227",
-      "name": "Cheshire Mouldings Pine Handrail for 41mm Spindles - 2.4m",
+      "id": "wickes-310230",
+      "name": "Cheshire Mouldings Pine Blank Spindle - 41 x 895mm",
       "retailer": "wickes",
-      "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Handrail-for-41mm-Spindles---2-4m/p/310227",
-      "price": 45.00,
+      "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Blank-Spindle---41-x-895mm/p/310230",
+      "price": 4.5,
       "packQty": 1,
-      "category": "handrail",
-      "spindleSize": 41,
-      "material": "Pine"
-    },
-    {
-      "id": "wickes-310228",
-      "name": "Cheshire Mouldings Pine Baserail for 41mm Spindles - 2.4m",
-      "retailer": "wickes",
-      "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Baserail-for-41mm-Spindles---2-4m/p/310228",
-      "packQty": 1,
-      "category": "baserail",
-      "spindleSize": 41,
-      "material": "Pine"
-    },
-    {
-      "id": "wickes-118381",
-      "name": "Cheshire Mouldings Pine Turned Half Newel - 1500 x 90 x 41mm",
-      "retailer": "wickes",
-      "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Turned-Half-Newel---1500-x-90-x-41mm/p/118381",
-      "packQty": 1,
-      "category": "newel",
-      "material": "Pine"
-    },
-    {
-      "id": "bandq-5055170317637",
-      "name": "Benchmark Pine Square Stair Spindle Trade Box of 20 - 900 x 41mm",
-      "retailer": "bandq",
-      "url": "https://www.diy.com/departments/benchmark-pine-square-stair-spindle-trade-box-of-20-h-900mm-x-w-41mm/5055170317637_BQ.prd",
-      "price": 65.00,
-      "packQty": 20,
       "category": "spindles",
       "spindleSize": 41,
       "material": "Pine"
     },
     {
-      "id": "bandq-5000473035689",
-      "name": "Richard Burbidge Oak 41mm Handrail - 2.4m",
-      "retailer": "bandq",
-      "url": "https://www.diy.com/departments/traditional-oak-41mm-handrail-l-2-4m-w-59mm/5000473035689_BQ.prd",
-      "price": 124.00,
+      "id": "wickes-310229",
+      "name": "Cheshire Mouldings Pine Twisted Spindle - 41 x 895mm",
+      "retailer": "wickes",
+      "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Twisted-Spindle---41-x-895mm/p/310229",
+      "price": 9.0,
       "packQty": 1,
-      "category": "handrail",
-      "spindleSize": 41,
-      "material": "Oak"
-    },
-    {
-      "id": "bandq-5000473035702",
-      "name": "Traditional Oak 41mm Baserail - 2.4m",
-      "retailer": "bandq",
-      "url": "https://www.diy.com/departments/traditional-oak-41mm-baserail-l-2-4m-w-62mm/5000473035702_BQ.prd",
-      "packQty": 1,
-      "category": "baserail",
-      "spindleSize": 41,
-      "material": "Oak"
-    },
-    {
-      "id": "bandq-5060960711786",
-      "name": "Cambridge Black Metal Square Baluster, Pack of 3 - 1120 x 13mm",
-      "retailer": "bandq",
-      "url": "https://www.diy.com/departments/cambridge-black-metal-square-stair-and-landing-baluster-pack-of-3-h-1120mm-w-13mm/5060960711786_BQ.prd",
-      "price": 23.00,
-      "packQty": 3,
       "category": "spindles",
-      "spindleSize": 13,
-      "material": "Metal"
-    },
-    {
-      "id": "bandq-5060960711878",
-      "name": "Oak Handrail & Base Rail Set for 13mm Metal Balusters - 2.4m",
-      "retailer": "bandq",
-      "url": "https://www.diy.com/departments/black-metal-oak-grooved-handrail-and-base-rail-set-for-metal-balusters-l-2400mm/5060960711878_BQ.prd",
-      "packQty": 2,
-      "category": "handrail",
-      "spindleSize": 13,
-      "material": "Oak"
-    },
-    {
-      "id": "bandq-5000473059661",
-      "name": "Richard Burbidge Elements Metal Baluster, Pack of 3 - 805 x 14mm",
-      "retailer": "bandq",
-      "url": "https://www.diy.com/departments/elements-contemporary-black-metal-staircase-baluster-h-805mm-w-14mm-pack-of-3/5000473059661_BQ.prd",
-      "price": 29.00,
-      "packQty": 3,
-      "category": "spindles",
-      "spindleSize": 14,
-      "material": "Metal"
+      "spindleSize": 41,
+      "material": "Pine"
     }
   ]
 }
