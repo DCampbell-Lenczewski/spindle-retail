@@ -15,6 +15,13 @@
       "awinMerchantId": "",
       "urlEnv": "BANDQ_FEED_URL",
       "searchUrl": "https://www.diy.com/search?term={q}"
+    },
+    {
+      "retailer": "travisperkins",
+      "name": "Travis Perkins",
+      "awinMerchantId": "16300",
+      "urlEnv": "TRAVISPERKINS_FEED_URL",
+      "searchUrl": "https://www.travisperkins.co.uk/search?text={q}"
     }
   ],
   "categories": {

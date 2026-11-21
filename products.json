@@ -15,6 +15,11 @@
       "name": "B&Q",
       "awinMerchantId": "",
       "searchUrl": "https://www.diy.com/search?term={q}"
+    },
+    "travisperkins": {
+      "name": "Travis Perkins",
+      "awinMerchantId": "16300",
+      "searchUrl": "https://www.travisperkins.co.uk/search?text={q}"
     }
   },
   "products": [
@@ -27,6 +32,17 @@
       "category": "baserail",
       "spindleSize": 41,
       "material": "Oak"
+    },
+    {
+      "id": "tp-172281",
+      "name": "Flair Stairs Bamboo Pear Baserail 41mm Groove 4.2m Light",
+      "retailer": "travisperkins",
+      "url": "https://www.travisperkins.co.uk/stair-accessories/flair-stairs-bamboo-pear-baserail-41mm-groove-4-2m-light/p/172281",
+      "price": 61.42,
+      "packQty": 1,
+      "category": "baserail",
+      "spindleSize": 41,
+      "material": "Bamboo"
     },
     {
       "id": "wickes-310228",
@@ -59,6 +75,16 @@
       "category": "handrail",
       "spindleSize": 41,
       "material": "Oak"
+    },
+    {
+      "id": "tp-172374",
+      "name": "Flair Stairs Bamboo Deep Traditional Handrail 41mm Groove 2.4m Light",
+      "retailer": "travisperkins",
+      "url": "https://www.travisperkins.co.uk/stair-accessories/flair-stairs-bamboo-deep-traditional-handrail-41mm-groove-2-4m-light/p/172374",
+      "packQty": 1,
+      "category": "handrail",
+      "spindleSize": 41,
+      "material": "Bamboo"
     },
     {
       "id": "wickes-310227",
@@ -115,17 +141,6 @@
       "material": "Pine"
     },
     {
-      "id": "wickes-120178",
-      "name": "Wickes Traditional Hemlock Spindle 41 x 900mm",
-      "retailer": "wickes",
-      "url": "https://www.wickes.co.uk/Wickes-Traditional-Hemlock-Spindle-41-x-900mm/p/120178",
-      "packQty": 1,
-      "category": "spindles",
-      "spindleSize": 41,
-      "material": "Hemlock",
-      "price": 5.5
-    },
-    {
       "id": "wickes-310230",
       "name": "Cheshire Mouldings Pine Blank Spindle - 41 x 895mm",
       "retailer": "wickes",
@@ -135,6 +150,17 @@
       "category": "spindles",
       "spindleSize": 41,
       "material": "Pine"
+    },
+    {
+      "id": "wickes-120178",
+      "name": "Wickes Traditional Hemlock Spindle 41 x 900mm",
+      "retailer": "wickes",
+      "url": "https://www.wickes.co.uk/Wickes-Traditional-Hemlock-Spindle-41-x-900mm/p/120178",
+      "packQty": 1,
+      "category": "spindles",
+      "spindleSize": 41,
+      "material": "Hemlock",
+      "price": 5.5
     },
     {
       "id": "wickes-310229",

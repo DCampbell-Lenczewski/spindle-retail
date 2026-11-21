@@ -22,6 +22,7 @@ jobs:
         env:
           WICKES_FEED_URL: ${{ secrets.WICKES_FEED_URL }}
           BANDQ_FEED_URL: ${{ secrets.BANDQ_FEED_URL }}
+          TRAVISPERKINS_FEED_URL: ${{ secrets.TRAVISPERKINS_FEED_URL }}
         run: python feed-builder/build_products.py
 
       - name: Commit if changed
