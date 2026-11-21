@@ -8,11 +8,13 @@
   "retailers": {
     "wickes": {
       "name": "Wickes",
-      "awinMerchantId": "1563"
+      "awinMerchantId": "1563",
+      "searchUrl": "https://www.wickes.co.uk/search?text={q}"
     },
     "bandq": {
       "name": "B&Q",
-      "awinMerchantId": ""
+      "awinMerchantId": "",
+      "searchUrl": "https://www.diy.com/search?term={q}"
     }
   },
   "products": [
@@ -34,7 +36,8 @@
       "packQty": 1,
       "category": "baserail",
       "spindleSize": 41,
-      "material": "Pine"
+      "material": "Pine",
+      "price": 40.0
     },
     {
       "id": "bandq-5060960711878",
@@ -75,7 +78,8 @@
       "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Turned-Half-Newel---1500-x-90-x-41mm/p/118381",
       "packQty": 1,
       "category": "newel",
-      "material": "Pine"
+      "material": "Pine",
+      "price": 40.0
     },
     {
       "id": "bandq-5060960711786",
@@ -112,20 +116,21 @@
     },
     {
       "id": "wickes-120178",
-      "name": "Wickes Traditional Hemlock Spindle - 41 x 900mm",
+      "name": "Wickes Traditional Hemlock Spindle 41 x 900mm",
       "retailer": "wickes",
-      "url": "https://www.wickes.co.uk/Wickes-Traditional-Hemlock-Spindle---41-x-900mm/p/120178",
+      "url": "https://www.wickes.co.uk/Wickes-Traditional-Hemlock-Spindle-41-x-900mm/p/120178",
       "packQty": 1,
       "category": "spindles",
       "spindleSize": 41,
-      "material": "Hemlock"
+      "material": "Hemlock",
+      "price": 5.5
     },
     {
       "id": "wickes-310230",
       "name": "Cheshire Mouldings Pine Blank Spindle - 41 x 895mm",
       "retailer": "wickes",
       "url": "https://www.wickes.co.uk/Cheshire-Mouldings-Pine-Blank-Spindle---41-x-895mm/p/310230",
-      "price": 4.5,
+      "price": 3.5,
       "packQty": 1,
       "category": "spindles",
       "spindleSize": 41,

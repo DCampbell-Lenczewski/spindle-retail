@@ -132,7 +132,7 @@ def build(config, feed_files, previous):
 
     for feed in config["feeds"]:
         code = feed["retailer"]
-        retailers[code] = {"name": feed["name"], "awinMerchantId": feed.get("awinMerchantId", "")}
+        retailers[code] = {"name": feed["name"], "awinMerchantId": feed.get("awinMerchantId", ""), "searchUrl": feed.get("searchUrl", "")}
 
         try:
             if code in feed_files:
