@@ -34,3 +34,5 @@ body { min-height: 100vh; }
 .launch { display: flex; align-items: center; gap: 14px; margin: 8px 0 4px; }
 .launch .badge { margin: 0; font-size: 16px; line-height: 21px; padding: 10px 14px; }
 .appicon { border-radius: 22.5%; box-shadow: 0 0 0 0.5px rgba(0,0,0,.15), 0 3px 10px rgba(0,0,0,.18); }
+.feature { display: flow-root; }
+.feature .glyph { float: right; width: 56px; height: 56px; margin: 2px 0 6px 12px; }
