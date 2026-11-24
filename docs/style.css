@@ -27,8 +27,10 @@ footer a { color: var(--muted); margin-right: 14px; }
 .shots { display: flex; gap: 14px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 24px 0 8px; padding: 0 0 8px; }
 .shots img { flex: none; width: 230px; height: auto; border-radius: 18px; scroll-snap-align: start; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
 @media (min-width: 760px) { .shots { overflow: visible; margin: 24px 0 8px; padding: 0; } .shots img { flex: 1; width: 0; } }
-header { position: relative; padding-right: 76px; }
+header { position: relative; padding-right: 76px; padding-top: calc(14px + env(safe-area-inset-top)); }
+html { background: #1F2937; }
+body { min-height: 100vh; }
 .hazard { position: absolute; top: 0; right: 0; width: 64px; height: 64px; }
 .launch { display: flex; align-items: center; gap: 14px; margin: 8px 0 4px; }
 .launch .badge { margin: 0; white-space: nowrap; font-size: 16px; padding: 10px 14px; }
-.appicon { border-radius: 14px; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+.appicon { border-radius: 22.5%; box-shadow: 0 0 0 0.5px rgba(0,0,0,.15), 0 3px 10px rgba(0,0,0,.18); }
