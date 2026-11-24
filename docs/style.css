@@ -32,5 +32,5 @@ html { background: #1F2937; }
 body { min-height: 100vh; }
 .hazard { position: absolute; top: 0; right: 0; width: 64px; height: 64px; }
 .launch { display: flex; align-items: center; gap: 14px; margin: 8px 0 4px; }
-.launch .badge { margin: 0; white-space: nowrap; font-size: 16px; padding: 10px 14px; }
+.launch .badge { margin: 0; font-size: 16px; line-height: 21px; padding: 10px 14px; }
 .appicon { border-radius: 22.5%; box-shadow: 0 0 0 0.5px rgba(0,0,0,.15), 0 3px 10px rgba(0,0,0,.18); }
